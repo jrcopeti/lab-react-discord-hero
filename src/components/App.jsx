@@ -1,14 +1,10 @@
 import Header from "./Header";
-import SidebarButton from "./SidebarButton";
-import MainLayout from "./MainLayout";
-import Footer from "./Footer";
+import Main from "./Main";
 function App() {
   return (
     <>
       <Header />
-      <SidebarButton />
-      <MainLayout />
-      <Footer />
+      <Main />
     </>
   );
 }
